@@ -16,3 +16,13 @@ else:
     q=int(input("enter marks of 5 subject"))
     total=m+n+o+p+q/5
     print("average:",total)
+    if total>=90:
+        print("grade A")
+    elif total>=80:
+        print("grade B")   
+    elif total>=70:
+        print("grade C")
+    elif total>=60:
+        print("grade D")
+    else:
+        print("fail")
